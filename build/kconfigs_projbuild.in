@@ -1,0 +1,5 @@
+source "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/app_update/Kconfig.projbuild"
+source "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/bootloader/Kconfig.projbuild"
+source "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/partition_table/Kconfig.projbuild"
+source "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"

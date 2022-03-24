@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/bootloader/subproject",
+    "build_dir":          "E:/WorkSpaceESP-32/ESP32_VScode/xingzhitianqi/build/bootloader",
+    "config_file":        "E:/WorkSpaceESP-32/ESP32_VScode/xingzhitianqi/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3.1-dirty",
+    "target":             "esp32c3",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/efuse/Kconfig;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp32c3/Kconfig;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp_common/Kconfig;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp_system/Kconfig;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/log/Kconfig;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/newlib/Kconfig;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/bootloader/Kconfig.projbuild;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esptool_py/Kconfig.projbuild;E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32c3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/bootloader", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/bootloader_support", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/efuse", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp32c3", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp_common", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp_hw_support", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp_rom", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esp_system", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/esptool_py", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/hal", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/log", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/bootloader/subproject/main", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/bootloader/subproject/components/micro-ecc", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/newlib", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/partition_table", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/riscv", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/soc", "E:/WorkSpaceESP-32/ESP-IDE/esp-idf/components/spi_flash", "" ]
+}
